@@ -96,7 +96,10 @@ traži od korisnika da upiše svoje ime
 traži od korisnika da upiše svoju školu
 ispiše poruku
  
-  
+PRIMJER:
+Upiši svoje ime: Marko
+Upiši svoju školu: Tehnička škola Čakovec
+
 
 ------------------------------------------------------------
 
