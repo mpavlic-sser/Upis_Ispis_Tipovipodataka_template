@@ -1,1 +1,1 @@
-# Upis_Ispis_Tipovipodataka_template
+# C# upis i ispis podatka, tipovi podataka
