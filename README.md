@@ -1,4 +1,4 @@
-# NIOP003_C# upis i ispis podatka, tipovi podataka
+# NIOP002_C# upis i ispis podatka, tipovi podataka
 
 ﻿# C# unos, ispis, tipovi podataka
 
