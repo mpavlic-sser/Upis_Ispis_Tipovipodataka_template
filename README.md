@@ -120,7 +120,9 @@ U svakom C# programu radimo dvije glavne stvari:
 To radimo pomoću Console.WriteLine() i Console.ReadLine().
 
   
-## 1. Ispis podataka – Console.WriteLine()
+## Ispis podataka 
+
+### Console.WriteLine()
 
 Console.WriteLine() ispisuje tekst ili vrijednost varijable i prelazi u novi red.
 
@@ -140,7 +142,6 @@ Možemo ispisati i više stvari odjednom:
     Console.WriteLine("Moje godine su: " + godine);
 
   
-
 Formatirani ispis:
 
     int a = 10, b = 20;
@@ -151,7 +152,32 @@ Interpolacija (najmoderniji način):
 
     Console.WriteLine($"Vrijednosti su: {a} i {b}");
 
-  
+
+### Console.Write()
+
+Ispis bez prelaska u novi red
+
+Koristi se za unos u istom redu
+
+```
+Console.Write("Upiši ime: ");
+string ime = Console.ReadLine();
+```
+
+Ispis
+```
+Upiši ime: Marko
+```
+
+## \n – prijelom linije
+```
+Console.WriteLine("Prva linija\nDruga linija");
+```
+
+## Kako napraviti razmak ili prazan red?
+```
+Console.WriteLine();  // samo prazan red
+```
 
 ## 2. Unos podataka – Console.ReadLine()
 
@@ -177,10 +203,9 @@ ispiše poruku
  
 PRIMJER:
 Upiši svoje ime: Marko
-Upiši svoju školu: Tehnička škola Čakovec
+Upiši svoju školu: Srednja skola za elektrotehniku i racunalstvo Rijeka
 
-
-------------------------------------------------------------
+##################################################################################
 
 # TIPOVI PODATAKA U C#
 
