@@ -13,37 +13,55 @@ npr. https://classroom.github.com/a/xxxxxxx
 Klikni Accept assignment 🎓
 Pričekaj 5–20 sekundi da Classroom izradi tvoj privatni repozitorij
 Klikni Go to your repository
-Tvoj repozitorij će imati naziv tipa:
-oop-zadatak1-ime-prezime
-powershell-vjezba3-marko-markic
-nasljedivanje-z02-ivan-horvat
-
-## Povezivanje Visual Studio 2022 s GitHub računom
-1. Otvori Visual Studio 2022 i klikni na *Account Settings* (gornji desni kut) 👤
-2. Klikni **Add…** ➜ odaberi **GitHub** 🔐
-3. Prijavi se na GitHub i dopusti pristup.
-4. Tvoj GitHub račun će se pojaviti gore desno u Visual Studio-u ✔️
+Klikni Code → HTTPS → Copy da kopiraš URL repozitorija
 
 
-## Povezivanje lokalnog projekta s GitHub repo‑zitorijem
-1. Visual Studio → *Clone a repository*  
-2. Kopiraj GitHub HTTPS URL → zalijepi → *Clone* 📥
-3. Piši kod kao i inače, pokreći program, testiraj ga
+## KLONIRANJE REPOZITORIJA
+Otvorite program Visual Studio Code
+Otvorite TerminaL pomoću tipkovničke kratice CTRL + J
+Klonirajte svoj repo pomoću naredbe git clone KOPIRANI URL (npr. git clone https://github.com/ORG/tvoj-repo.git)
+Uđite u klonirani repozitorij pomoću naredbe cd zadatak01
+Provjeri sadržaj pomoću naredbe ls
 
-## SPREMI I POŠALJI RJEŠENJE
-(Commit & Push)
-Otvori donji desni panel Git Changes
-Upiši poruku npr.
-✔️ “Rješenje zadatka 1”
-✔️ “Dodan ispis imena”
-✔️ “Popravljen bug”
-Klikni Commit All
-Odmah nakon toga klikni Push 📤
-Sada je rješenje poslano na GitHub
-Ako vidiš zelenu kvačicu ✔️ u Visual Studio-u, tvoj kod je sigurno poslan
+## OTVARANJE PROJEKTA U VS CODEU
+```
+code .
+```
+
+## POKRETANJE PROGRAMA
+
+Uđi u projekt mapu:
+```
+cd Zadatak01.Console
+```
+upišite naredbu:
+
+```
+dotnet run
+```
+
+## PREDAVANJE ZADATKA (Commit & Push)
+Provjeri status:
+```
+git status
+```
+Dodaj sve promjene:
+```
+git add .
+```
+Napravi commit:
+```
+git commit -m "Rješenja zadataka 02"
+```
+Pošalji na GitHub:
+```
+git push
+```
+
+###############################################################################
 
 
-## Komentari u jednom redu u C#
+# Komentari u jednom redu u C#
 
 Komentari se koriste za:
 
