@@ -1,10 +1,49 @@
-# NIOP002_C# upis i ispis podatka, tipovi podataka
+# NIOP_02_Upis i ispis podataka, tipovi podataka u C# jeziku
 
-﻿# C# unos, ispis, tipovi podataka
+# UPUTE ZA RAD
 
-ZA POČETAK PRATITE UPUTE ZA KLONIRANJE I PREBACIVANJE U LOKALNI VSCODE KOJI SE NALAZI U DATOTECI **UPUTE ZA UČENIKE: Kako klonirati zadatak, riješiti ga i predati preko GitHuba** NA MICROSOFT TEMSU OD KORAK BROJ 2 (**✅ 2. korak – Kopiraj URL svog repozitorija**) KOJI SE NALAZI NA DRUGOJ STRANICI DATOTEKE
+## PRIJAVA U GITHUB 
+Otvori https://github.com
+Prijavi se svojim GitHub računom
+Nemoj zatvarati stranicu
 
- ### 🧠 **Komentari u jednom redu u C#**
+## OTVORI ZADATAK NA GITHUB CLASSROOMU
+link na zadatak:
+npr. https://classroom.github.com/a/xxxxxxx
+Klikni Accept assignment 🎓
+Pričekaj 5–20 sekundi da Classroom izradi tvoj privatni repozitorij
+Klikni Go to your repository
+Tvoj repozitorij će imati naziv tipa:
+oop-zadatak1-ime-prezime
+powershell-vjezba3-marko-markic
+nasljedivanje-z02-ivan-horvat
+
+## Povezivanje Visual Studio 2022 s GitHub računom
+1. Otvori Visual Studio 2022 i klikni na *Account Settings* (gornji desni kut) 👤
+2. Klikni **Add…** ➜ odaberi **GitHub** 🔐
+3. Prijavi se na GitHub i dopusti pristup.
+4. Tvoj GitHub račun će se pojaviti gore desno u Visual Studio-u ✔️
+
+
+## Povezivanje lokalnog projekta s GitHub repo‑zitorijem
+1. Visual Studio → *Clone a repository*  
+2. Kopiraj GitHub HTTPS URL → zalijepi → *Clone* 📥
+3. Piši kod kao i inače, pokreći program, testiraj ga
+
+## SPREMI I POŠALJI RJEŠENJE
+(Commit & Push)
+Otvori donji desni panel Git Changes
+Upiši poruku npr.
+✔️ “Rješenje zadatka 1”
+✔️ “Dodan ispis imena”
+✔️ “Popravljen bug”
+Klikni Commit All
+Odmah nakon toga klikni Push 📤
+Sada je rješenje poslano na GitHub
+Ako vidiš zelenu kvačicu ✔️ u Visual Studio-u, tvoj kod je sigurno poslan
+
+
+## Komentari u jednom redu u C#
 
 Komentari se koriste za:
 
@@ -40,8 +79,7 @@ U svakom C# programu radimo dvije glavne stvari:
 To radimo pomoću Console.WriteLine() i Console.ReadLine().
 
   
-
-🖨️ 1. Ispis podataka – Console.WriteLine()
+## 1. Ispis podataka – Console.WriteLine()
 
 Console.WriteLine() ispisuje tekst ili vrijednost varijable i prelazi u novi red.
 
@@ -74,7 +112,7 @@ Interpolacija (najmoderniji način):
 
   
 
-⌨️ 2. Unos podataka – Console.ReadLine()
+## 2. Unos podataka – Console.ReadLine()
 
 Console.ReadLine() čita tekst koji korisnik upiše i sprema ga u varijablu tipa string.
 
@@ -88,7 +126,7 @@ Console.ReadLine() čita tekst koji korisnik upiše i sprema ga u varijablu tipa
 Svi podaci unešeni preko tipkovnice su string – iako izgledaju kao brojevi.
 (Pretvorbe tipova ćemo raditi u drugoj lekciji.)
 
-### 📝 Vježba – Ispis i unos
+# 📝 Vježba – Ispis i unos
 
 Napiši program koji:
 
@@ -103,7 +141,7 @@ Upiši svoju školu: Tehnička škola Čakovec
 
 ------------------------------------------------------------
 
-## 📗 LEKCIJA – TIPOVI PODATAKA U C#
+# TIPOVI PODATAKA U C#
 
 ⭐ Što je varijabla?
 
@@ -115,7 +153,7 @@ određene veličine (ovisno o tipu podatka)
 koje može mijenjati vrijednost
 
    
-1️⃣ Identifikatori (imena varijabli)
+## Identifikatori (imena varijabli)
 
 Pravila:
 
@@ -134,7 +172,7 @@ Prikladna imena:
     brojUcenika, temperaturaDanas, korisnik1, ukupnaVrijednost
 
   
-2️⃣Deklaracija i inicijalizacija varijabli
+## Deklaracija i inicijalizacija varijabli
 
 Deklaracija:
 
@@ -150,7 +188,7 @@ Deklaracija + inicijalizacija u jednom redu:
     int godine = 17;
 
   
-3️⃣ Zašto postoje tipovi podataka?
+## Zašto postoje tipovi podataka?
 
 Tip podataka određuje:
 
@@ -169,7 +207,7 @@ kako ispisati ili obraditi vrijednost
   
 ------------------------------------------------------------
 
-### 🟦 A) CIJELOBROJNI TIPOVI
+## A) CIJELOBROJNI TIPOVI
 
   Cjelobrojni tipovi (eng. integer types) pohranjuju cijele brojeve bez decimalnog dijela.
 
@@ -283,7 +321,7 @@ brojanje bajtova na disku
     ulong udaljenost = 99999999999999999u; // jako veliki pozitivan broj
 
  
-### 🟩 B) REALNI BROJEVI (decimalni)
+## B) REALNI BROJEVI (decimalni)
 
 Realni (floating-point) brojevi pohranjuju brojeve s decimalama.
 
@@ -413,7 +451,7 @@ opisni tekstovi
 **korisnički unos preko ReadLine()**
 
   
-### 🟥 D) LOGIČKI TIP (bool)
+##  D) LOGIČKI TIP (bool)
 
 ### Bool (Boolean) pohranjuje samo:
 
@@ -438,7 +476,7 @@ je li lampica uključena?
   
   
 
-### 🟨 E) KONSTANTE
+## E) KONSTANTE
 
 Konstante su vrijednosti koje se ne smiju mijenjati tijekom programa.
 
@@ -457,31 +495,6 @@ nazivi jezika, poruka, API ključevi
 izbjegavanje slučajnih promjena vrijednosti
 
    
-  
-
-### 📊 Minimalne i maksimalne vrijednosti tipova
-
-C# omogućuje provjeru granica bilo kojeg tipa:
-
-    int min = int.MinValue;
-    
-    int max = int.MaxValue;
-
-  
-
-    double minD = double.MinValue;
-    
-    double maxD = double.MaxValue;
-
-  
-
-    uint maxU = uint.MaxValue;
-
-  
-
-Ovo je korisno kada program treba znati koliko veliki broj može spremiti.
-
-  
   
 
 ------------------------------------------------------------
