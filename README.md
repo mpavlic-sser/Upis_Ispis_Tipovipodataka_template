@@ -18,10 +18,23 @@ Klikni Code → HTTPS → Copy da kopiraš URL repozitorija
 
 ## KLONIRANJE REPOZITORIJA
 Otvorite program Visual Studio Code
-Otvorite TerminaL pomoću tipkovničke kratice CTRL + J
-Klonirajte svoj repo pomoću naredbe git clone KOPIRANI URL (npr. git clone https://github.com/ORG/tvoj-repo.git)
-Uđite u klonirani repozitorij pomoću naredbe cd zadatak01
-Provjeri sadržaj pomoću naredbe ls
+
+Otvorite TerminaL pomoću tipkovničke kratice 
+```
+CTRL + J
+```
+Klonirajte svoj repo pomoću naredbe git clone KOPIRANI URL npr.
+```
+git clone https://github.com/ORG/tvoj-repo.git)
+```
+Uđite u klonirani repozitorij pomoću naredbe 
+```
+cd zadatak01
+```
+Provjeri sadržaj pomoću naredbe 
+```
+ls
+```
 
 ## OTVARANJE PROJEKTA U VS CODEU
 ```
