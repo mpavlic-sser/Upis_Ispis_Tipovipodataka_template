@@ -1,4 +1,4 @@
-# NIOP_02_Upis i ispis podataka, tipovi podataka u C# jeziku
+# NIOP02 - Upis i ispis podataka, tipovi podataka u C# jeziku
 
 # UPUTE ZA RAD
 
@@ -69,7 +69,7 @@ Primjeri:
       KOD ZADATKA
 
 
-## 📘 ISPIS I UNOS PODATAKA U C#
+# ISPIS I UNOS PODATAKA U C#
 
 U svakom C# programu radimo dvije glavne stvari:
 
@@ -143,7 +143,7 @@ Upiši svoju školu: Tehnička škola Čakovec
 
 # TIPOVI PODATAKA U C#
 
-⭐ Što je varijabla?
+Što je varijabla?
 
 Varijabla je:
 
@@ -203,8 +203,7 @@ razlikovati broj od teksta
 koliko memorije rezervirati
 kako ispisati ili obraditi vrijednost
 
-  
-  
+    
 ------------------------------------------------------------
 
 ## A) CIJELOBROJNI TIPOVI
@@ -324,9 +323,7 @@ brojanje bajtova na disku
 ## B) REALNI BROJEVI (decimalni)
 
 Realni (floating-point) brojevi pohranjuju brojeve s decimalama.
-
   
-
 ### 1. float (7 decimalnih znamenki)
 
 | Tip   | Preciznost       | Memorija | Napomena |
@@ -399,7 +396,7 @@ matematiku gdje tolerancija pogreške mora biti minimalna
 
   
 
-### 🟧 C) ZNAKOVI I TEKST
+### C) ZNAKOVI I TEKST
 
 ### 1. char – jedan znak
 
@@ -499,7 +496,7 @@ izbjegavanje slučajnih promjena vrijednosti
 
 ------------------------------------------------------------
 
-## 🎯 ZADACI ZA VJEŽBU
+## ZADACI ZA VJEŽBU
 
 Sve zadatke rješavate u istoj Program.cs datoteci s time da svaki zadatak započinjete s jednolinijskim komentarom s brojem zadatka
 Primjer:
@@ -529,8 +526,7 @@ Zahtjevi:
 
 Primjer ispisa:
 
-    ==== Moja digitalna osobna ====
-    
+   
     Ime: Marko
     
     Godine: 17
@@ -542,7 +538,7 @@ Primjer ispisa:
     Punoljetan: False
 
 
-### ⭐ Zadatak 2 – Aplikacija za pozdrav
+### Zadatak 2 – Aplikacija za pozdrav
 
 Učenik radi pravi program koji traži:
 
@@ -573,7 +569,7 @@ Te ispisuje personaliziranu poruku (PRIMJER ISPISA):
     Tvoje omiljeno slovo je M
 
 
-### ⭐ Zadatak 3 – Mini sustav za pametnu kuću
+### Zadatak 3 – Mini sustav za pametnu kuću
 
 Simulacija “smart home” uređaja.
 
@@ -600,7 +596,7 @@ Učenik mora:
     Grijanje: Isključeno
 
 
-### ⭐ Zadatak 4 – Konstante za fiziku i matematiku
+### Zadatak 4 – Konstante za fiziku i matematiku
 
 Učenik mora stvoriti 3 konstante:
 
@@ -623,4 +619,17 @@ I ispisati ih (PRIMJER ISPISA):
     Programski jezik = C#
 
 
-ZA PREDAJU ZADATKA SLIJEDI UPUTE U DATOTECI **UPUTE ZA UČENIKE: Kako klonirati zadatak, riješiti ga i predati preko GitHuba** NA MICROSOFT TEMSU 
+#####################################################################
+
+## SPREMI I POŠALJI RJEŠENJE
+(Commit & Push)
+Otvori donji desni panel Git Changes
+Upiši poruku npr.
+✔️ “Rješenje zadatka 1”
+✔️ “Dodan ispis imena”
+✔️ “Popravljen bug”
+Klikni Commit All
+Odmah nakon toga klikni Push 📤
+Sada je rješenje poslano na GitHub
+Ako vidiš zelenu kvačicu ✔️ u Visual Studio-u, tvoj kod je sigurno poslan
+
