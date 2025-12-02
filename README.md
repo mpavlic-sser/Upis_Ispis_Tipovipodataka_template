@@ -558,9 +558,38 @@ nazivi jezika, poruka, API ključevi
 izbjegavanje slučajnih promjena vrijednosti
 
    
-  
+## Ispis različitih tipova podataka
 
-------------------------------------------------------------
+string
+```
+string ime = "Marko";
+Console.WriteLine(ime);
+```
+
+int
+```
+int godine = 17;
+Console.WriteLine(godine);
+```
+float / double
+```
+double visina = 1.85;
+Console.WriteLine(visina);
+```
+
+bool
+```
+bool punoljetan = false;
+Console.WriteLine(punoljetan);
+```
+
+char
+```
+char slovo = 'A';
+Console.WriteLine(slovo);
+```
+
+#########################################################################################
 
 ## ZADACI ZA VJEŽBU
 
@@ -574,7 +603,7 @@ Primjer:
     I TAKO DALJE
 
 
-### ⭐ Zadatak 1 – Digitalna osobna iskaznica
+### Zadatak 1 – Digitalna osobna iskaznica
 
 Učenik treba napraviti mini digitalnu osobnu iskaznicu s različitim tipovima podataka.
 
@@ -647,9 +676,12 @@ Učenik mora:
 -   ručno ih postaviti na true/false  
       
     
--   ispisati sustav (PRIMJER ISPISA):  
+-   ispisati sustav (PRIMJER ISPISA):
+
+-   Postavi njihove vrijednosti na true ili false.
+(Npr. true = uključeno, false = isključeno)
     
-  
+  ```
     Svjetlo: Upaljeno
     
     TV: Isključen
@@ -657,11 +689,13 @@ Učenik mora:
     Alarm: Uključen
     
     Grijanje: Isključeno
-
+```
 
 ### Zadatak 4 – Konstante za fiziku i matematiku
 
 Učenik mora stvoriti 3 konstante:
+
+
 
 -   const double Pi = 3.14159;  
       
@@ -675,12 +709,13 @@ Učenik mora stvoriti 3 konstante:
 
 I ispisati ih (PRIMJER ISPISA):
 
+    ```
     Pi = 3.14159
     
     Gravitacijsko ubrzanje = 9.81 m/s²
     
     Programski jezik = C#
-
+```
 
 #########################################################################################################
 
