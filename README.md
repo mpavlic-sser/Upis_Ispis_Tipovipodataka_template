@@ -582,11 +582,8 @@ Učenik mora:
       
     
 -   ispisati sustav (PRIMJER ISPISA):  
-      
     
-
-    ===== STATUS PAMETNE KUĆE =====
-    
+  
     Svjetlo: Upaljeno
     
     TV: Isključen
