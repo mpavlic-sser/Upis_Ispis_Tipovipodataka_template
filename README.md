@@ -3,16 +3,26 @@
 # UPUTE ZA RAD
 
 ## PRIJAVA U GITHUB 
+
 Otvori https://github.com
+
 Prijavi se svojim GitHub računom
+
 Nemoj zatvarati stranicu
 
 ## OTVORI ZADATAK NA GITHUB CLASSROOMU
-link na zadatak:
-npr. https://classroom.github.com/a/xxxxxxx
+
+link na zadatak npr. 
+```
+https://classroom.github.com/a/xxxxxxx
+```
+
 Klikni Accept assignment 🎓
+
 Pričekaj 5–20 sekundi da Classroom izradi tvoj privatni repozitorij
+
 Klikni Go to your repository
+
 Klikni Code → HTTPS → Copy da kopiraš URL repozitorija
 
 
