@@ -1,0 +1,1 @@
+Console.WriteLine("NET 10 Console App – Template");
