@@ -58,7 +58,7 @@ Pošalji na GitHub:
 git push
 ```
 
-###############################################################################
+#######################################################################################################################
 
 
 # Komentari u jednom redu u C#
@@ -634,17 +634,22 @@ I ispisati ih (PRIMJER ISPISA):
     Programski jezik = C#
 
 
-#####################################################################
+###################################################################################################################
 
-## SPREMI I POŠALJI RJEŠENJE
-(Commit & Push)
-Otvori donji desni panel Git Changes
-Upiši poruku npr.
-✔️ “Rješenje zadatka 1”
-✔️ “Dodan ispis imena”
-✔️ “Popravljen bug”
-Klikni Commit All
-Odmah nakon toga klikni Push 📤
-Sada je rješenje poslano na GitHub
-Ako vidiš zelenu kvačicu ✔️ u Visual Studio-u, tvoj kod je sigurno poslan
-
+## PREDAVANJE ZADATKA (Commit & Push)
+Provjeri status:
+```
+git status
+```
+Dodaj sve promjene:
+```
+git add .
+```
+Napravi commit:
+```
+git commit -m "Rješenja zadataka 02"
+```
+Pošalji na GitHub:
+```
+git push
+```
